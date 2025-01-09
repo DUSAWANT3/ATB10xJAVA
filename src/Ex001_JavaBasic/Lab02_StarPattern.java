@@ -10,5 +10,6 @@ public class Lab02_StarPattern {
                 }
                 System.out.println();
             }
+            System.out.println("Done");
         }
 }
