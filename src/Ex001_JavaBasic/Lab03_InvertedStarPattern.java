@@ -11,6 +11,7 @@ public class Lab03_InvertedStarPattern {
                 System.out.println();
             }
             System.out.println("Done");
+
         }
     }
 
