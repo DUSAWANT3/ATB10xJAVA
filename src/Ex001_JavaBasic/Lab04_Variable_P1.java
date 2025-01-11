@@ -14,5 +14,6 @@ public class Lab04_Variable_P1 {
             c = 8 * i;
             System.out.printf("8*%d=%d%n", i, c);
         }
+
     }
 }
