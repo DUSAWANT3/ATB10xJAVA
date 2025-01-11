@@ -14,6 +14,7 @@ public class Lab04_Table_P2 {
        System.out.println("   " + "-".repeat(columns * 4)); // Line separator
 
         // Print rows
+
         for (int i = 1; i <= rows; i++) {
             System.out.printf("%4d", i); // Row header
             for (int j = 1; j <= columns; j++) {
