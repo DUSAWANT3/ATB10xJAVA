@@ -1,6 +1,6 @@
 package Ex001_JavaBasic;
 
-public class Lab04_Variable_P1 {
+public class Lab04_Table_P1 {
     public static void main(String[] args) {
 // Task 11th Jan 2025 - | printf() - Table of 9
         int b;

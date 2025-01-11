@@ -1,6 +1,6 @@
 package Ex001_JavaBasic;
 
-public class Lab04_Variable_P2 {
+public class Lab04_Table_P2 {
 
     public static void main(String[] args) {
         int rows = 10, columns = 10;
