@@ -17,6 +17,7 @@ public class Lab06_Literals {
   //Floating-Point Literals
      //Represents decimal or fractional numbers.
         double d1 = 3.14;    // Default is double
+
         float f1 = 3.14f;    // Use 'f' or 'F' for float
         double d2 = 1.2e3;   // Scientific notation (1.2 × 10³)
      //Suffix f or F for float
