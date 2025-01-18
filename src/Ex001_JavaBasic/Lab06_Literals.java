@@ -1,5 +1,7 @@
 package Ex001_JavaBasic;
 
+import java.sql.SQLOutput;
+
 public class Lab06_Literals {
     public static void main(String[] args) {
 
@@ -17,7 +19,6 @@ public class Lab06_Literals {
   //Floating-Point Literals
      //Represents decimal or fractional numbers.
         double d1 = 3.14;    // Default is double
-
         float f1 = 3.14f;    // Use 'f' or 'F' for float
         double d2 = 1.2e3;   // Scientific notation (1.2 × 10³)
      //Suffix f or F for float
@@ -27,6 +28,7 @@ public class Lab06_Literals {
         char c1 = 'A';       // Single character
         char c2 = '\n';      // Escape sequence (newline)
         char c3 = '\u0041';  // Unicode (A in hexadecimal)
+        char c4 = '3';       // 3 is also consider as char
 
  //String Literals --Represents a sequence of characters enclosed in double quotes.
         String s1 = "Hello, World!";
@@ -47,5 +49,12 @@ public class Lab06_Literals {
         int million = 1_000_000; // Same as 1000000
         long creditCard = 1234_5678_9012_3456L;
 
+//**Null Literals**
+//- null is a value.
+//- It is default value for any reference variable.
+//- If the value of reference variable is null then it indicates that address/reference is not
+//- available in the variable.
+
+        System.out.println("Literals Done !");
     }
 }
