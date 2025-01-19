@@ -21,7 +21,6 @@ public class Lab012_GradeCalculater {
         //int score = 83; // Example score, you can change this value to test
 
         Scanner scanner = new Scanner(System.in);         // Create a Scanner object
-
         System.out.println("Enter your score (0-100): ");   // Prompt the user to enter a score
         int score = scanner.nextInt(); // Read the score as an integer
 
