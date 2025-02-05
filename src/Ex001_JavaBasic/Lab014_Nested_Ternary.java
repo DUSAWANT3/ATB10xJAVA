@@ -4,6 +4,10 @@ import java.sql.SQLOutput;
 
 public class Lab014_Nested_Ternary {
     public static void main(String[] args) {
+
+        //result = conditon ? expression1 : expression2;
+        //expression - (conditon 2 ? expression2 : expression3)
+
         //find the largest no in lhe list
         //1- find the inputes/outputs
         //data type--int

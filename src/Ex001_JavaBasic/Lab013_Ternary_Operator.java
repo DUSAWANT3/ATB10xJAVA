@@ -2,6 +2,8 @@ package Ex001_JavaBasic;
 
 public class Lab013_Ternary_Operator {
     public static void main(String[] args) {
+
+        // Result = Condition ? Experession 1 : Experssion 2
         //find the mximium  no between two no
         //X and Y --> x,y--> Ternary op.
         int x =10, y = 20;
@@ -11,7 +13,7 @@ public class Lab013_Ternary_Operator {
         System.out.println(max1);
 
 
-  //find out Even odd no
+        /* find out Even odd no */
         int num = 7;
         String result = (num % 2 == 0) ? "Even" : "Odd";
         String result1 = (num % 2 == 0) ? (num + "  Even") : (num + "  Odd") ;
