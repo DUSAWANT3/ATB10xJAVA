@@ -8,7 +8,7 @@ public class Lab16_Pratics {
 
         int max = x > y ? x : y ;
         System.out.println(max);
-        System.out.println(x > y ? "max no x" : "max no y");
+        System.out.println(x > y ? "max no x =  "+x : "max no y =  "+y);
 
    //find even odd num using tenary operater
         System.out.println( (x%2==0) ? "x is Even number" : "x is Odd number");
