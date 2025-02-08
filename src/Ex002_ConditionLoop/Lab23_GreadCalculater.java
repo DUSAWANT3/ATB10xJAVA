@@ -8,7 +8,7 @@ public class Lab23_GreadCalculater {
         Scanner SC = new Scanner(System.in); //Get input from User
         System.out.println("Enter your Markes (0 to 100) = ");
         int Markes = SC.nextInt();
-        char Gread = 'F';
+       char Gread = 'F'; //defoult value og local variable is good practice.6
 
         if (Markes >= 90 && Markes <= 100) {
             System.out.println("Gread = A ");
@@ -34,6 +34,9 @@ public class Lab23_GreadCalculater {
             Gread = 'D';
         } else if (Markes >= 50 && Markes < 60) {
             Gread = 'E';
+        } else if (Markes <=0 || Markes > 100){
+            System.out.println("It's not valid Markes");
+            Gread = '-';
         }
 
         System.out.println("Your Gread is " + Gread);
