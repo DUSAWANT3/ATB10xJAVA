@@ -13,3 +13,4 @@ public class Lab02_StarPattern {
             System.out.println("Done");
         }
 }
+// Number of rows for the star pattern
