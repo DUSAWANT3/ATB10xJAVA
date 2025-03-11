@@ -4,7 +4,7 @@ public class Lab27_ForLoop {
     public static void main(String[] args) {
         /*Loop -> Repeat a block of code
        for(I ; C ; U)
-       I-Initialization, C- Condition ,U -Updation
+       I-Initialization, C- Condition, U -Updation
          */
         for (int i = 0; i < 10; i++) { //10 times 0 to 9
             System.out.print(" " + i + " ");
