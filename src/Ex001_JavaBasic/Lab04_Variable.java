@@ -5,7 +5,6 @@ import java.sql.SQLOutput;
 public class Lab04_Variable {
     public static void main(String[] args) {
         System.out.println("Class2 11th Jan 20225");
-
         int a = 10;
         //data type variable_name = variable_value
         // int -> primitive -data type- numaric value
