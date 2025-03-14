@@ -43,5 +43,7 @@ public class Lab04_Variable {
 
 //%-10s: Left-align the string within 10 characters.
 //%10d: Right-align the integer within 10 spaces.
+
+
     }
 }
