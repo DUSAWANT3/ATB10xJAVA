@@ -22,6 +22,5 @@ public class Lab046_RightAlingRightTrangle {
             }
             System.out.println();
         }
-
     }
 }

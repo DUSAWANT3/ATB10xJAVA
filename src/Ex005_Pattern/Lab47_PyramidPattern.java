@@ -31,8 +31,5 @@ public class Lab47_PyramidPattern {
             }
             System.out.println();
         }
-
-
-
     }
 }
