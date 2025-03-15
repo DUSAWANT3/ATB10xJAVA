@@ -15,6 +15,7 @@ public class Lab04_Variable {
                  //age -> variable name or Identifier
         System.out.println(age);
 
+
   //byte -128 to 127 (circular)
         byte b = 127;
 
