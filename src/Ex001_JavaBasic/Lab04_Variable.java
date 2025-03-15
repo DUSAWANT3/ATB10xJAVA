@@ -18,6 +18,7 @@ public class Lab04_Variable {
   //byte -128 to 127 (circular)
         byte b = 127;
 
+
 //Print F
         //The printf() function is used to format and print text in Java.
         // It gives you control over how text, numbers, or other data are displayed. The name stands for "print formatted.
