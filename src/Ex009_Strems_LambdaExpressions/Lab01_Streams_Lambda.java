@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Lab01_Streams_Lambda {
     public static void main(String[] args) {
@@ -47,5 +48,20 @@ public class Lab01_Streams_Lambda {
                 .filter(n -> n % 2 == 0)       // Filter out even numbers
                 .map(n -> n * n)                // Square the numbers
                 .forEach(System.out::println);  // Print each squared number
+
+        //Ex04
+        List<String> names1 = Arrays.asList("Alex", "Brian", "Charles", "Ankit");
+
+        //names1.stream().filter(n -> n.length()>2).forEach(n -> System.out.println("Ex04  " + n));
+
+        //printing only name
+        names1.stream().filter(n-> n.length()>4).limit(1).forEach(n-> System.out.println("Ex05 "+ n));
+
+        //Ex06 - Print names which have last name letter as "a" with UpperCase
+        Stream.of("Alex", "Briana", "Charles", "Ankita").filter(n-> n.endsWith("a"))
+                .map(s-> s.toUpperCase())
+                .forEach(n-> System.out.println("EC06  "+ n));
+
+
     }
 }
