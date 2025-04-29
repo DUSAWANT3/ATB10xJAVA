@@ -24,5 +24,12 @@ public class Lab02 {
                 .collect(Collectors.toList());
 
         System.out.println(lengths); // [4, 4]
+
+ //3- Print Unic number --> Short
+        List<Integer> value = List.of(2,5,6,2,7,1,8,3,9,1,2);
+        value.stream().distinct()
+                .sorted()
+                .forEach(s -> System.out.println(s));
+
     }
 }
