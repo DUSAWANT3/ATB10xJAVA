@@ -17,5 +17,4 @@ public class ps2 extends ps3 {
         a =a - 1;
         return a;
     }
-
 }
