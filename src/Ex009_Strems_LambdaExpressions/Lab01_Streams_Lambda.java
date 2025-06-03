@@ -61,7 +61,5 @@ public class Lab01_Streams_Lambda {
         Stream.of("Alex", "Briana", "Charles", "Ankita").filter(n-> n.endsWith("a"))
                 .map(s-> s.toUpperCase())
                 .forEach(n-> System.out.println("EC06  "+ n));
-
-
     }
 }
