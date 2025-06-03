@@ -24,5 +24,6 @@ public class Ex05_Map {
             Map.Entry<Integer, String> entry = it.next();
             System.out.println(entry.getKey() + " => " + entry.getValue()); //101 => Durgesh ...
         }
+
     }
 }
