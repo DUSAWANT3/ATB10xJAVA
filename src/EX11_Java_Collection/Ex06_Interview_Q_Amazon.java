@@ -14,6 +14,7 @@ public class Ex06_Interview_Q_Amazon {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
 
+
         // Print frequency and unique numbers
         for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
             int number = entry.getKey();
