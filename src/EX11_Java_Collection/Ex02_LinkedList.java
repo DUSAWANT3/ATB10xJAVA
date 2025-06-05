@@ -31,6 +31,3 @@ public class Ex02_LinkedList {
         linkedList.addFirst("Z");
     }
 }
-
-
-//
