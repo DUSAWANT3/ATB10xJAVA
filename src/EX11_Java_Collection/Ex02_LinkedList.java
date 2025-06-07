@@ -26,7 +26,6 @@ public class Ex02_LinkedList {
 // This won't compile:
 // list.addFirst("Z");
 
-
 // This will work:
         LinkedList<String> linkedList = new LinkedList<>();
         linkedList.addFirst("Z");
