@@ -30,4 +30,3 @@ public class Lab50_Ex006_wrapper_classes {
         String str = Integer.toString(50);   // Convert int to String
     }
 }
-//
