@@ -19,7 +19,6 @@ public class Ex02_LinkedList {
         list.add("apple");
 
         System.out.println(list);//[Banana, apple]
-
         List<String> list1 = new LinkedList<>();
         list1.add("A");
         list1.add("B");
